@@ -7,7 +7,7 @@ This programme has been created to demonstrate the use of Machine Learning to op
 A company uses a simulation tool to model business procesess, but would like to optimise the components of the model to produce a desired output (e.g. number of widgets manufactured) at the lowest cost.
 
 This notebook demonstrates that a simulator may be treated as a black box whose input-output relationship is learnt by machine-learning regression models.
-The regression model can then be searched - significantly much faster than a typical simulation can be run - to determine the best input parameters to achieve a given target output for the lowest cost. This approach may also be applied to optimise an practical experiment which yields a single measured value.
+The regression model can then be searched - significantly much faster than a typical simulation can be run - to determine the best input parameters to achieve a given target output for the lowest cost. This approach may also be applied to optimise a practical experiment which yields a single measured value.
 
 In this example the value of 5 integer inputs are optimised (e.g. corresponding to the number of manufacturing machines in 5 depots) to produce a target outcome of 60 (e.g. 60 widgets/day throughput).
 
