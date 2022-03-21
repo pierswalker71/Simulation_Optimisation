@@ -1,9 +1,9 @@
 # Simulation_Optimisation
 
-Introduction
+##Introduction
 This programme has been created to demonstrate the use of Machine Learning to optimise the output of a simulator.
 
-Business problem being solved: The optimisation of a simulation tool
+**Business problem being solved: The optimisation of a simulation tool**
 A company uses a simulation tool to model business processess, but would like to optimise the components of the model to produce a desired output (e.g. number of widgets manufactured) at the lowest cost.
 
 This notebook demonstrates that a simulator may be treated as a black box whose input-output relationship is learnt by machine-learning regression models.
