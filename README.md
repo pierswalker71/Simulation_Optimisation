@@ -155,6 +155,17 @@ Review lowest-cost compliant solutions
 
 ## Screenshots
 
+### Complexity of 
+
+<figure>
+  <img src="https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_function_to_optimise.JPG"
+       alt="Function to optimise"
+       width="420">
+  <figcaption><em>The complex nature of the business solution landscape.</em></figcaption>
+</figure>  
+
+Shows how spikey and non-uniform the effect of changing some of the variables has on the performance of the system.
+
 ### Model Performance
 
 <figure>
@@ -162,7 +173,7 @@ Review lowest-cost compliant solutions
        alt="Regression model performance chart"
        width="420">
   <figcaption><em>Regression model performance chart.</em></figcaption>
-</figure>
+</figure>  
 
 Shows how well the selected regression model predicts simulator outputs on unseen test data.
 
