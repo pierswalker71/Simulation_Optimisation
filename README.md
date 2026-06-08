@@ -186,7 +186,7 @@ Shows the spread of different solutions and the range of performance and costs. 
   <figcaption><em>Regression model performance chart.</em></figcaption>
 </figure>  
 
-Shows how well the selected regression model predicts simulator outputs on unseen test data.
+Shows how well the selected regression model predicts simulator outputs on unseen test data. The line shows where the points would lie if the model could perfectly predict the performance of a given solution. 
 
 ### Best Compliant Results Table
 
