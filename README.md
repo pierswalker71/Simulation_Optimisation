@@ -155,7 +155,7 @@ Review lowest-cost compliant solutions
 
 ## Screenshots
 
-### Complexity of 
+### Business Problem Complexity
 
 <figure>
   <img src="https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_function_to_optimise.JPG"
@@ -165,6 +165,17 @@ Review lowest-cost compliant solutions
 </figure>  
 
 Shows how spikey and non-uniform the effect of changing some of the variables has on the performance of the system.
+
+### Solution Performance and Costs
+
+<figure>
+  <img src="https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_output_scatter.JPG"
+       alt="Output scatter chart"
+       width="420">
+  <figcaption><em>Scatter plot of all solutions tests, showing performance and cost.</em></figcaption>
+</figure>  
+
+Shows the spread of different solutions and the range of performance and costs. Only the blue markers show solutions that actually meet our requirements.
 
 ### Model Performance
 
@@ -177,29 +188,27 @@ Shows how spikey and non-uniform the effect of changing some of the variables ha
 
 Shows how well the selected regression model predicts simulator outputs on unseen test data.
 
-### Optimisation Result
+### Best Compliant Results Table
 
-```markdown
-![Optimisation result](docs/images/optimisation-result.png)
-```
+<figure>
+  <img src="https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_results_heatmap.JPG"
+       alt="Results heatmap"
+       width="420">
+  <figcaption><em>Stacked list of best i.e. cheapest solutions that meet the requirement.</em></figcaption>
+</figure>  
 
-Shows the recommended input configuration, predicted output and estimated cost.
+Shows the lowest-cost solutions that achieve the target output within tolerance. The top row gives the values of each variable's value.
 
-### Best Compliant Results
+### Improvement Over Time
 
-```markdown
-![Best compliant results](docs/images/best-compliant-results.png)
-```
+<figure>
+  <img src="https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_run_improvements.JPG"
+       alt="Improvement over time"
+       width="420">
+  <figcaption><em>Timeline chart showing the change in best solution found over a sets of runs.</em></figcaption>
+</figure>  
 
-Shows the lowest-cost solutions that achieve the target output within tolerance.
-
-### Local Search Around the Optimum
-
-```markdown
-![Local search results](docs/images/local-search-results.png)
-```
-
-Shows how nearby input combinations compare with the predicted optimum.
+Shows that compliant runs are be found over successive runs which occaisionally identintifies a new cheaper way to meet the requirement.
 
 ---
 
