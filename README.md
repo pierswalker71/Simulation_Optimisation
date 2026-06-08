@@ -197,7 +197,7 @@ Shows how well the selected regression model predicts simulator outputs on unsee
   <figcaption><em>Stacked list of best i.e. cheapest solutions that meet the requirement.</em></figcaption>
 </figure>  
 
-Shows the lowest-cost solutions that achieve the target output within tolerance. The top row gives the values of each variable's value.
+Shows the lowest-cost solutions that achieve the target output within tolerance. The top row gives the values of each variable's value which produce the current cheapest solutions.
 
 ### Improvement Over Time
 
@@ -208,7 +208,7 @@ Shows the lowest-cost solutions that achieve the target output within tolerance.
   <figcaption><em>Timeline chart showing the change in best solution found over a sets of runs.</em></figcaption>
 </figure>  
 
-Shows that compliant runs are be found over successive runs which occaisionally identintifies a new cheaper way to meet the requirement.
+Shows that compliant runs are found over successive runs and that through this approach new cheaper ways to meet the requirement can be discovered.
 
 ---
 
