@@ -158,7 +158,7 @@ Review lowest-cost compliant solutions
 ### Model Performance
 
 ```markdown
-![Model performance](docs/images/model-performance.png)
+![Model performance](https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_regression_performance.JPG)
 ```
 
 Shows how well the selected regression model predicts simulator outputs on unseen test data.
