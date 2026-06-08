@@ -157,9 +157,9 @@ Review lowest-cost compliant solutions
 
 ### Model Performance
 
-```markdown
-![Model performance](https://github.com/pierswalker71/Simulation_Optimisation/blob/main/images/simulator_optimisation_regression_performance.JPG)
-```
+<img src="/images/simulator_optimisation_regression_performance.png"
+     alt="Map preview of the school allocation tool"
+     width="360">
 
 Shows how well the selected regression model predicts simulator outputs on unseen test data.
 
